@@ -13,9 +13,7 @@
     </wildcardResourcePatterns>
     <bytecodeTargetLevel target="1.8" />
   </component>
-  <component name="CopyrightManager" default="">
-    <module2copyright />
-  </component>
+  <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
@@ -51,7 +49,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module filepath="$PROJECT_DIR$/forge-1.12.2-14.23.4.2705-mdk.iml" fileurl="file://$PROJECT_DIR$/forge-1.12.2-14.23.4.2705-mdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forge-1.12.2-14.23.4.2705-mdk.iml" filepath="$PROJECT_DIR$/forge-1.12.2-14.23.4.2705-mdk.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -59,6 +57,9 @@
   </component>
   <component name="SvnBranchConfigurationManager">
     <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="masterDetails">
     <states>
