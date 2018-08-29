@@ -25,6 +25,7 @@ public class ModItems {
 
     public static void registerModels() {
         ingotCopper.registerItemModel();
+        copperSword.registerItemModel();
     }
 
 }
