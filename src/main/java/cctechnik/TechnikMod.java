@@ -10,7 +10,10 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import proxy.CommonProxy;
+import recipe.ModRecipes;
+import world.ModWorldGenerator;
 
 @Mod(modid = TechnikMod.modId, name = TechnikMod.name, version = TechnikMod.version, acceptedMinecraftVersions = "[1.12.2]")
 public class TechnikMod {
@@ -29,12 +32,15 @@ public class TechnikMod {
     public void preInit(FMLPreInitializationEvent event) {
         System.out.println(name + " is loading!");
         ModItems.init();
+        GameRegistry.registerWorldGenerator(new ModWorldGenerator(),3);
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         System.out.println(name + ":init");
+        ModRecipes.init();
     }
+
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
