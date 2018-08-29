@@ -44,6 +44,7 @@ cmake-build-*/
 
 # File-based project format
 *.iws
+**.iws
 
 # IntelliJ
 out/
@@ -71,6 +72,7 @@ fabric.properties
 https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
 *.iml
+**.iml
 #modules.xml
 #.idea/misc.xml
 # *.ipr
@@ -78,7 +80,16 @@ https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 # Sonarlint plugin
 .idea/sonarlint
 
-run/*
-build/*
+run/*.*
+run/**
+run/
+run
+build/**
+build/*.*
 
+.gradle/
+.gradle
+.gradle/*
+
+forge-1.12.2-14.23.4.2705-mdk.iws
 # End of https://www.gitignore.io/api/intellij
