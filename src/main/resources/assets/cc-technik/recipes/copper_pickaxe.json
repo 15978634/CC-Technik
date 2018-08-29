@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CCC",
+		" W ",
+		" W "
+	],
+	"key": {
+		"C": {
+			"item": "cc-technik:ingot_copper"
+		},
+		"W": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "cc-technik:copper_pickaxe"
+	}
+}

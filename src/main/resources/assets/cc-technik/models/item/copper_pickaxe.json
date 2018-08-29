@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "cc-technik:items/copper_pickaxe"
+	}
+}
