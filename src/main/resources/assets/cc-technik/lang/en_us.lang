@@ -1,5 +1,6 @@
 # Items
 item.ingot_copper.name=Copper Ingot
+item.copper_sword.name=Copper Sword
 
 # Blocks
 tile.ore_copper.name=Copper Ore
