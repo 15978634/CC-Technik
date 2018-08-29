@@ -19,7 +19,8 @@ public class ModItems {
 
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
-                ingotCopper
+                ingotCopper,
+                copperSword
         );
     }
 
