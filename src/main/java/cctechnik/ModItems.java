@@ -19,12 +19,14 @@ public class ModItems {
 
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
-                ingotCopper
+                ingotCopper,
+                copperSword
         );
     }
 
     public static void registerModels() {
         ingotCopper.registerItemModel();
+        copperSword.registerItemModel();
     }
 
 }
