@@ -9,7 +9,7 @@ public class ModItems {
     public static ItemBase ingotCopper = new ItemBase("ingot_copper").setCreativeTab(CreativeTabs.MISC);
 
     public static void init() {
-        //ItemBase ingotCopper = new ItemBase("ingot_copper").setCreativeTab(CreativeTabs.MISC);
+
 
     }
 
