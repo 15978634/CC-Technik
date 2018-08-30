@@ -8,6 +8,7 @@ public class ItemSword extends net.minecraft.item.ItemSword {
 
     public ItemSword(ToolMaterial material, String name) {
         super(material);
+        setCreativeTab(TechnikMod.creativeTab);
         setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;

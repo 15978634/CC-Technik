@@ -9,3 +9,5 @@ item.copper_axe.name=Copper Axe
 # Blocks
 tile.ore_copper.name=Copper Ore
 tile.ore_tin.name=Tin Ore
+
+itemGroup.cc-technik=Technik Mod

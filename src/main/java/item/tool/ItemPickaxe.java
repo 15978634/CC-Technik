@@ -9,6 +9,7 @@ public class ItemPickaxe extends net.minecraft.item.ItemPickaxe {
 
     public ItemPickaxe(ToolMaterial material, String name) {
         super(material);
+        setCreativeTab(TechnikMod.creativeTab);
         setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;

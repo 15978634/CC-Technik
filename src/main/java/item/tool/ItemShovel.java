@@ -9,6 +9,7 @@ public class ItemShovel extends net.minecraft.item.ItemSpade {
 
     public ItemShovel(ToolMaterial material, String name) {
         super(material);
+        setCreativeTab(TechnikMod.creativeTab);
         setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;

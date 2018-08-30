@@ -12,8 +12,8 @@ import net.minecraft.creativetab.CreativeTabs;
 
 public class ModItems {
 
-    public static ItemBase ingotCopper = new ItemBase("ingot_copper").setCreativeTab(CreativeTabs.MISC);
-    public static ItemBase ingotTin = new ItemBase("ingot_tin").setCreativeTab(CreativeTabs.MISC);
+    public static ItemBase ingotCopper = new ItemBase("ingot_copper").setCreativeTab(TechnikMod.creativeTab);
+    public static ItemBase ingotTin = new ItemBase("ingot_tin").setCreativeTab(TechnikMod.creativeTab);
 
     public static ItemSword copperSword = new ItemSword(TechnikMod.copperToolMaterial, "copper_sword");
     public static ItemShovel copperShovel = new ItemShovel(TechnikMod.copperToolMaterial, "copper_shovel");
