@@ -1,5 +1,6 @@
 # Items
 item.ingot_copper.name=Copper Ingot
+item.ingot_tin.name=Tin Ingot
 item.copper_sword.name=Copper Sword
 item.copper_shovel.name=Copper Shovel
 item.copper_pickaxe.name=Copper Pickaxe

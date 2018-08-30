@@ -10,5 +10,6 @@ public class ModRecipes {
 
     public static void init(){
         GameRegistry.addSmelting(ModBlocks.oreCopper, new ItemStack(ModItems.ingotCopper), 0.7f);
+        GameRegistry.addSmelting(ModBlocks.oreTin, new ItemStack(ModItems.ingotTin), 0.7f);
     }
 }

@@ -13,6 +13,8 @@ import net.minecraft.creativetab.CreativeTabs;
 public class ModItems {
 
     public static ItemBase ingotCopper = new ItemBase("ingot_copper").setCreativeTab(CreativeTabs.MISC);
+    public static ItemBase ingotTin = new ItemBase("ingot_tin").setCreativeTab(CreativeTabs.MISC);
+
     public static ItemSword copperSword = new ItemSword(TechnikMod.copperToolMaterial, "copper_sword");
     public static ItemShovel copperShovel = new ItemShovel(TechnikMod.copperToolMaterial, "copper_shovel");
     public static ItemPickaxe copperPickaxe = new ItemPickaxe(TechnikMod.copperToolMaterial, "copper_pickaxe");
@@ -26,6 +28,7 @@ public class ModItems {
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
                 ingotCopper,
+                ingotTin,
                 copperSword,
                 copperPickaxe,
                 copperShovel,
@@ -35,6 +38,7 @@ public class ModItems {
 
     public static void registerModels() {
         ingotCopper.registerItemModel();
+        ingotTin.registerItemModel();
         copperSword.registerItemModel();
         copperPickaxe.registerItemModel();
         copperShovel.registerItemModel();
