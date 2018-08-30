@@ -3,6 +3,7 @@ item.ingot_copper.name=Copper Ingot
 item.copper_sword.name=Copper Sword
 item.copper_shovel.name=Copper Shovel
 item.copper_pickaxe.name=Copper Pickaxe
+item.copper_axe.name=Copper Axe
 
 # Blocks
 tile.ore_copper.name=Copper Ore

@@ -14,6 +14,7 @@ public class ItemSword extends net.minecraft.item.ItemSword {
     }
 
     public void registerItemModel() {
-        TechnikMod.proxy.registerItemRenderer(this, 0, name);
+        TechnikMod.proxy.registerItemRenderer(
+                this, 0, name);
     }
 }

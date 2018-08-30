@@ -1,6 +1,7 @@
 package cctechnik;
 
 
+import item.tool.ItemAxe;
 import item.tool.ItemPickaxe;
 import item.tool.ItemShovel;
 import item.tool.ItemSword;
@@ -15,6 +16,7 @@ public class ModItems {
     public static ItemSword copperSword = new ItemSword(TechnikMod.copperToolMaterial, "copper_sword");
     public static ItemShovel copperShovel = new ItemShovel(TechnikMod.copperToolMaterial, "copper_shovel");
     public static ItemPickaxe copperPickaxe = new ItemPickaxe(TechnikMod.copperToolMaterial, "copper_pickaxe");
+    public static ItemAxe copperAxe = new ItemAxe(TechnikMod.copperToolMaterial, "copper_axe");
 
     public static void init() {
 
@@ -26,7 +28,8 @@ public class ModItems {
                 ingotCopper,
                 copperSword,
                 copperPickaxe,
-                copperShovel
+                copperShovel,
+                copperAxe
         );
     }
 
@@ -35,6 +38,8 @@ public class ModItems {
         copperSword.registerItemModel();
         copperPickaxe.registerItemModel();
         copperShovel.registerItemModel();
+        copperAxe.registerItemModel();
+
     }
 
 }
