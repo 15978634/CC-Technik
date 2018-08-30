@@ -18,6 +18,7 @@ public class BlockBase extends Block {
 
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(TechnikMod.creativeTab);
     }
 
     public void registerItemModel(Item itemBlock) { // if not working change item to itemblock

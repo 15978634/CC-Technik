@@ -25,7 +25,10 @@ public class TechnikMod {
     public static final String name = "CC-Technik Mod";
     public static final String version = "1.0.0";
 
+    public static final TechnikModTab creativeTab = new TechnikModTab();
+
     public static final Item.ToolMaterial copperToolMaterial = EnumHelper.addToolMaterial("COPPER", 2, 200, 6, 2, 14);
+    public static final Item.ToolMaterial tinToolMaterial = EnumHelper.addToolMaterial("TIN", 2, 200, 6, 2, 14);
 
     @SidedProxy(serverSide = "proxy.CommonProxy", clientSide = "proxy.ClientProxy")
     public static CommonProxy proxy;
