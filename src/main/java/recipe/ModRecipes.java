@@ -1,6 +1,6 @@
 package recipe;
 
-import cctechnik.ModBlocks;
+import block.ModBlocks;
 import cctechnik.ModItems;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;

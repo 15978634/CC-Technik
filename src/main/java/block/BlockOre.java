@@ -1,8 +1,7 @@
-package cctechnik;
+package block;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemPickaxe;
 
 public class BlockOre extends BlockBase {
 

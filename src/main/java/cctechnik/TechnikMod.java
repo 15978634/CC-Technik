@@ -1,5 +1,6 @@
 package cctechnik;
 
+import block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.util.EnumHelper;
