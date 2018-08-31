@@ -63,8 +63,6 @@ public class TechnikMod {
             System.out.println("!!!REGISTEREVENT");
             ModItems.register(event.getRegistry());
             ModBlocks.registerItemBlocks(event.getRegistry());
-            //if not working uncomment this again
-            //ModItems.registerModels();
         }
 
         @SubscribeEvent
