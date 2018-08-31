@@ -1,7 +1,10 @@
 package cctechnik;
 
 import block.ModBlocks;
+import item.ModItems;
 import net.minecraft.block.Block;
+import net.minecraft.init.SoundEvents;
+import net.minecraft.item.ItemArmor;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
@@ -30,6 +33,7 @@ public class TechnikMod {
 
     public static final Item.ToolMaterial copperToolMaterial = EnumHelper.addToolMaterial("COPPER", 2, 200, 6, 2, 14);
     public static final Item.ToolMaterial tinToolMaterial = EnumHelper.addToolMaterial("TIN", 2, 200, 6, 2, 14);
+    public static final ItemArmor.ArmorMaterial copperArmorMaterial = EnumHelper.addArmorMaterial("COPPER", modId + ":copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 
     @SidedProxy(serverSide = "proxy.CommonProxy", clientSide = "proxy.ClientProxy")
     public static CommonProxy proxy;

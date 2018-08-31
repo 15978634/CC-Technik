@@ -1,5 +1,6 @@
 package cctechnik;
 
+import item.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 

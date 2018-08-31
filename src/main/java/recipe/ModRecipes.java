@@ -1,7 +1,7 @@
 package recipe;
 
 import block.ModBlocks;
-import cctechnik.ModItems;
+import item.ModItems;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 

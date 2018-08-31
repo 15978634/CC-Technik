@@ -1,13 +1,13 @@
-package cctechnik;
+package item;
 
 
+import cctechnik.TechnikMod;
 import item.tool.ItemAxe;
 import item.tool.ItemPickaxe;
 import item.tool.ItemShovel;
 import item.tool.ItemSword;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraft.creativetab.CreativeTabs;
 
 
 public class ModItems {
