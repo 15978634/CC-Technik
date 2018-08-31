@@ -10,7 +10,7 @@ item.copper_axe.name=Copper Axe
 
 # Armor
 item.copper_helmet.name=Copper Helmet
-
+item.copper_chestplate.name=Copper Chestplate
 # Blocks
 tile.ore_copper.name=Copper Ore
 tile.ore_tin.name=Tin Ore
