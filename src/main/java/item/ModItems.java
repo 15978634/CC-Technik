@@ -24,6 +24,8 @@ public class ModItems {
 
     public static ItemArmor copperHelmet = new ItemArmor(TechnikMod.copperArmorMaterial, EntityEquipmentSlot.HEAD, "copper_helmet");
     public static ItemArmor copperChestplate = new ItemArmor(TechnikMod.copperArmorMaterial, EntityEquipmentSlot.CHEST, "copper_chestplate");
+    public static ItemArmor copperLeggings  = new ItemArmor(TechnikMod.copperArmorMaterial, EntityEquipmentSlot.LEGS, "copper_leggings");
+    public static ItemArmor copperBoots = new ItemArmor(TechnikMod.copperArmorMaterial, EntityEquipmentSlot.FEET, "copper_boots");
 
     public static void init() {
 
@@ -39,7 +41,9 @@ public class ModItems {
                 copperShovel,
                 copperAxe,
                 copperHelmet,
-                copperChestplate
+                copperChestplate,
+                copperLeggings,
+                copperBoots
         );
     }
 
@@ -52,6 +56,8 @@ public class ModItems {
         copperAxe.registerItemModel();
         copperHelmet.registerItemModel();
         copperChestplate.registerItemModel();
+        copperLeggings.registerItemModel();
+        copperBoots.registerItemModel();
     }
 
 }

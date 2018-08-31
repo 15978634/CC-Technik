@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cc-technik:items/copper_helmet"
+    "layer0": "cc-technik:items/copper_leggings"
   }
 }
