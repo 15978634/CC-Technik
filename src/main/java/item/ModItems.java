@@ -2,10 +2,12 @@ package item;
 
 
 import cctechnik.TechnikMod;
+import item.armor.ItemArmor;
 import item.tool.ItemAxe;
 import item.tool.ItemPickaxe;
 import item.tool.ItemShovel;
 import item.tool.ItemSword;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
@@ -20,6 +22,8 @@ public class ModItems {
     public static ItemPickaxe copperPickaxe = new ItemPickaxe(TechnikMod.copperToolMaterial, "copper_pickaxe");
     public static ItemAxe copperAxe = new ItemAxe(TechnikMod.copperToolMaterial, "copper_axe");
 
+    public static ItemArmor copperHelmet = new ItemArmor(TechnikMod.copperArmorMaterial, EntityEquipmentSlot.HEAD, "copper_helmet");
+
     public static void init() {
 
 
@@ -32,7 +36,8 @@ public class ModItems {
                 copperSword,
                 copperPickaxe,
                 copperShovel,
-                copperAxe
+                copperAxe,
+                copperHelmet
         );
     }
 
@@ -43,6 +48,7 @@ public class ModItems {
         copperPickaxe.registerItemModel();
         copperShovel.registerItemModel();
         copperAxe.registerItemModel();
+        copperHelmet.registerItemModel();
 
     }
 
