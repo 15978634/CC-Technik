@@ -16,6 +16,7 @@ public class ModItems {
 
     public static ItemBase ingotCopper = new ItemBase("ingot_copper").setCreativeTab(TechnikMod.creativeTab);
     public static ItemBase ingotTin = new ItemBase("ingot_tin").setCreativeTab(TechnikMod.creativeTab);
+    public static ItemBase ingotUranium = new ItemBase("ingot_uranium").setCreativeTab(TechnikMod.creativeTab);
 
     public static ItemSword copperSword = new ItemSword(TechnikMod.copperToolMaterial, "copper_sword");
     public static ItemShovel copperShovel = new ItemShovel(TechnikMod.copperToolMaterial, "copper_shovel");
@@ -36,6 +37,7 @@ public class ModItems {
         registry.registerAll(
                 ingotCopper,
                 ingotTin,
+                ingotUranium,
                 copperSword,
                 copperPickaxe,
                 copperShovel,
@@ -58,6 +60,7 @@ public class ModItems {
         copperChestplate.registerItemModel();
         copperLeggings.registerItemModel();
         copperBoots.registerItemModel();
+        ingotUranium.registerItemModel();
     }
 
 }
