@@ -7,8 +7,19 @@ import item.tool.ItemAxe;
 import item.tool.ItemPickaxe;
 import item.tool.ItemShovel;
 import item.tool.ItemSword;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+import net.minecraftforge.event.entity.living.LivingEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 
 
@@ -63,4 +74,11 @@ public class ModItems {
         ingotUranium.registerItemModel();
     }
 
+    public void onUpdate(ItemStack stack, World world, Entity entityIn, int itemSlot, boolean isSelected){
+        onUpdate(stack, world, entityIn, itemSlot, isSelected);
+
+        if (entityIn instanceof EntityLivingBase){
+            ((EntityLivingBase) entityIn).addPotionEffect(new PotionEffect(TechnikMod.customPotion, 200, 1));
+        }
+    }
 }
