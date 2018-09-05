@@ -13,6 +13,7 @@ https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/vcs.xml
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
@@ -85,5 +86,7 @@ run/
 build/
 
 .gradle/
+
+
 
 # End of https://www.gitignore.io/api/intellij
